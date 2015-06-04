@@ -1,0 +1,25 @@
+{
+    "name": "fivepercent/currency",
+    "description": "Work with currencies",
+    "keywords": [ "currency" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "suggest": {
+        "psr/log": "Logging warning messages"
+    },
+
+    "autoload": {
+        "psr-4": { "FivePercent\\Component\\Currency\\": "src/" }
+    }
+}
